@@ -175,13 +175,20 @@ hr {
       font-size: 2em;
   }
 }
-/*屏幕宽度小于600px,改变布局和样式*/
-@media screen and (max-width:600px) {
+/*屏幕宽度小于700px,改变布局和样式*/
+@media screen and (max-width:700px) {
   header .search {
       width: 100%;
   }
   .banner .image {
       margin-top: 30px;
+  }
+  .page{
+    font-family:monospace;
+    font-size: 1em;
+  }
+  .title{
+    font-size: 1.5em;
   }
 }
 
